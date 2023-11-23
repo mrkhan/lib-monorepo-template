@@ -1,0 +1,21 @@
+{
+  "name": "vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.2",
+    "ol": "8.2.0",
+    "rollup-plugin-copy": "3.4.0"
+  },
+  "devDependencies": {
+    "@giscience/geoprompt": "workspace:^0.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

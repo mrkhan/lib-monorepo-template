@@ -1,0 +1,19 @@
+{
+  "name": "@giscience/geoprompt-monorepo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/**",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test speciafied\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "@giscience/geoprompt",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/geoprompt.umd.cjs",
+  "module": "./dist/geoprompt.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/geoprompt.js",
+      "require": "./dist/geoprompt.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.3"
+  }
+}
